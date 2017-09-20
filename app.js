@@ -6,5 +6,5 @@ $('body').on('click', function () {
     var startValue = 0;
     var newValue = startValue + sumRandoms(10);
     $('#time').text(moment().format("MM/DD/YY @ HH:mm"));
-    $('#output').text(newValue);
+    $('#sumsAnswer').text(newValue);
 });
