@@ -9,20 +9,34 @@
         h1 {
             color: blue;
             font-family: "Apple Chancery";
+            text-align: center;
         }
         p {
             font-family: fantasy;
         }
         body {
             background-color: cornsilk;
+            text-align: left;
+            padding-left: 40px;
+        }
+        .window {
+            width: 800px;
+            height: 1000px;
+            margin: 0 auto;
+            background-color: goldenrod;
+        }
+        #time {
+            font-family: monospace;
         }
     </style>
 </head>
 <body>
-<h1>Random Number and Time</h1>
-<p>Sum: <span id="output"></span></p>
-<hr>
-<div id="time"></div>
+<div class="window">
+    <h1>Random Number and Time</h1>
+    <p>Sum: <span id="output"></span></p>
+    <hr>
+    <div id="time">THE TIME SHALL APPEAR HERE</div>
+</div>
 <script src="random.js"></script>
 <script src="app.js"></script>
 <script src="moment.min.js"></script>
