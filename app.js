@@ -5,6 +5,6 @@ $('body').on('click', function () {
     // Display a sum of random values from random.js
     var startValue = 0;
     var newValue = startValue + 30 * sumRandoms(10);
-    $('#time').text(moment().format("MM/DD/YY @ HH:mm"));
+    $('#time').text(moment().format("MM/DD/YYYY | HH:mm:ss"));
     $('#answer').text(newValue);
 });

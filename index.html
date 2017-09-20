@@ -8,28 +8,35 @@
     <style>
         h1 {
             color: blue;
-            font-family: "Apple Chancery";
+            font-family: "Apple SD Gothic Neo";
+            text-align: center;
+            padding-left: 0;
         }
         p {
             font-family: fantasy;
+            font-size: 24px;
             color: orangered;
         }
         body {
             background-color: cornsilk;
+            padding-left: 25px;
+        }
+        .panel {
+            width: 600px;
+            height: 1200px;
+            background-color: moccasin;
+            margin: 0 auto;
         }
     </style>
 </head>
 <body>
-<h1>Say My Name</h1>
+<div class="panel">
+    <h1>Say My Name</h1>
 <p>Sum: <span id="answer"></span></p>
-
-    First name: <input id="fname" type="text" name="fname"><br>
+First name: <input id="fname" type="text" name="fname"><br>
     Last name: <input id="lname" type="text" name="lname"><br>
-    <button id="submit">Submit</button>
-
-<hr>
-<p><span id="last"></span>, <span id="first"></span></p>
-<div id="time"></div>
+    <button id="submit">Submit</button><hr><p><span id="last"></span>, <span id="first"></span></p>
+<div id="time"></div></div>
 <script src="random.js"></script>
 <script src="app.js"></script>
 <script src="moment.min.js"></script>
