@@ -1,4 +1,6 @@
-$("submit").click(function() {
-    console.log("first name is",fname);
-    console.log("last name is",lname);
+$("#submit").click(function() {
+    console.log("submit");
+    $('#first').text($('#fname').val());
+    $('#last').text($('#lname').val());
+
 });
