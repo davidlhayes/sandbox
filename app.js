@@ -1,4 +1,5 @@
 // When you click in the body...
+
 $('body').on('click', function () {
     console.log("app.js");
     // Display a sum of random values from random.js

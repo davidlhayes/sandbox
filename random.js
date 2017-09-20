@@ -6,4 +6,4 @@ function sumRandoms(setLength) {
     return sum;
 }
 
-console.log('From random.js:', sumRandoms(10));
+// console.log('From random.js:', sumRandoms(10));
